@@ -4,8 +4,8 @@ LDFLAGS = `pkg-config --libs sdl2` -lm -lpthread -O3
 EXE = pixel
 
 # configuration
-PIXEL_WIDTH = 800
-PIXEL_HEIGHT = 600
+PIXEL_WIDTH = 1920
+PIXEL_HEIGHT = 1000
 PORT = 1234
 
 DEFINES = -DPIXEL_WIDTH=$(PIXEL_WIDTH) -DPIXEL_HEIGHT=$(PIXEL_HEIGHT) -DPORT=$(PORT)
